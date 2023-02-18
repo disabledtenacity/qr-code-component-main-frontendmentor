@@ -1,0 +1,90 @@
+/* ======== Table of Contents ========
+1. Global styles   
+2. Typography
+3. Utilities
+4. Sections
+5. Conponents
+*/
+
+/* ======== 1. Global Styles ======== */
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+     /* ======== Fonts ======== */
+    /* Font sizes */
+    --fs-h1: 1.25rem;
+    --fs-p: 1rem;
+    /* Font weights */
+    --fw-700: 700;
+    --fw-400: 400;
+    /* ======== Colors ======== */
+    --white: hsl(0, 0%, 100%);
+    --gray: hsl(212, 45%, 89%);
+    --blue-100: hsl(220, 15%, 55%);
+    --blue-200: hsl(218, 44%, 22%);
+}
+
+/* ======== 2. Typography ======== */
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--gray);
+}
+
+h1{
+    font-size: var(--fs-h1);
+    color: var(--blue-200);
+    text-align: center;
+    /* padding: 0 1.2rem; */
+}
+
+p{
+    font-size: var(--fs-p);
+    color: var(--blue-100);
+    text-align: center;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* ======== 3. Utilities ======== */
+
+a{
+    text-decoration: none;
+}
+
+.rounded-corners {
+    border-radius: 12px;
+}
+
+/* ======== 4. Sections ======== */
+#container{
+    background-color: var(--white);
+    margin: 0 auto;
+    margin-top: 10rem;
+    width: 21rem;
+    justify-content: center;
+}
+
+/* ======== 5. Conponents ======== */
+
+#qr-code{
+    margin: 1rem;
+}
+
+
+.attribution { 
+    margin-top: 1rem;
+    font-size: 0.69rem;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
