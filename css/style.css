@@ -41,16 +41,17 @@ body{
 h1{
     font-size: var(--fs-h1);
     color: var(--blue-200);
+    max-width: 15rem;
     text-align: center;
-    /* padding: 0 1.2rem; */
+    margin-left: 3rem;
 }
 
 p{
     font-size: var(--fs-p);
     color: var(--blue-100);
     text-align: center;
-    padding: 1.2rem;
-    margin-bottom: 2rem;
+    line-height: 1.25rem;
+    padding: .5rem 1.2rem;
 }
 
 /* ======== 3. Utilities ======== */
@@ -69,7 +70,9 @@ a{
     margin: 0 auto;
     margin-top: 10rem;
     width: 21rem;
+    height: 32rem;
     justify-content: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 /* ======== 5. Conponents ======== */
